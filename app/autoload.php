@@ -16,6 +16,7 @@ $loader->registerNamespaces(array(
     'Monolog'          => $vendorDir.'/monolog/src',
     'Assetic'          => $vendorDir.'/assetic/src',
     'Metadata'         => $vendorDir.'/metadata/src',
+    'FOS'              => $vendorDir.'/bundles',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => $vendorDir.'/twig-extensions/lib',

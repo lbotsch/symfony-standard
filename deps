@@ -73,10 +73,15 @@
 [AvalancheImagineBundle]
     git=http://github.com/avalanche123/AvalancheImagineBundle.git
     target=bundles/Avalanche/Bundle/ImagineBundle
-    
+
+[FOSUserBundle]
+    git=git://github.com/FriendsOfSymfony/FOSUserBundle.git
+    target=bundles/FOS/UserBundle
+
 [LuboContentManagerBundle]
     git=http://github.com/lbotsch/ContentManagerBundle.git
     target=bundles/Lubo/ContentManagerBundle
+
 [LuboContentManagerExtraBundle]
     git=http://github.com/lbotsch/ContentManagerExtraBundle.git
     target=bundles/Lubo/ContentManagerExtraBundle
